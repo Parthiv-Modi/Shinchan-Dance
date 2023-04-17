@@ -1,0 +1,28 @@
+<html>
+<head><title>Shinchan animation</title></head>
+<style>
+	body{
+		background-image: url("home.png");
+		background-attachment: fixed;
+		background-size: 100% 100%;
+		       background-repeat: no-repeat;
+	}
+	.shinchan{
+		margin-top:405px;
+	}
+</style>
+<body>
+	<audio  src="shinchan song.mp3" id="autoplay" loop>
+	</audio>
+	<script>
+		window.onload = function() {
+			document.getElementById("autoplay").play();
+		}
+	</script>
+
+	<marquee class="shinchan" , direction="right" >
+		<img src="boe dance.gif">
+		<img src="shinchan dance.gif">
+	
+</marquee></body>
+</html>
